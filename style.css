@@ -1,0 +1,17 @@
+Canvas{
+    animation-name: Lipstick;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+@keyframes Lipstick{
+    from{box-shadow: 1px 1px 30px rgb(245, 245, 143);}
+    to{box-shadow: 1px 1px 30px rgb(129, 250, 129);}
+}
+#Apply:hover{background-color: rgb(255, 211, 130);}
+
+.container{
+    position:fixed;
+    bottom:0;
+    
+}
+
